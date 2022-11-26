@@ -1,0 +1,7 @@
+data/fastqs
+data/reference
+data/trimmed
+install/
+map/
+multiqc_data/
+qc/
