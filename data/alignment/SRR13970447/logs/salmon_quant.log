@@ -1,0 +1,38 @@
+[2022-11-26 22:20:39.444] [jointLog] [info] setting maxHashResizeThreads to 12
+[2022-11-26 22:20:39.463] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2022-11-26 22:20:39.463] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2022-11-26 22:20:39.471] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2022-11-26 22:20:39.471] [jointLog] [info] parsing read library format
+[2022-11-26 22:20:39.472] [jointLog] [info] There is 1 library.
+[2022-11-26 22:20:39.481] [jointLog] [info] Loading pufferfish index
+[2022-11-26 22:20:39.505] [jointLog] [info] Loading dense pufferfish index.
+[2022-11-26 22:20:39.995] [jointLog] [info] done
+[2022-11-26 22:20:40.092] [jointLog] [info] Index contained 4,276 targets
+[2022-11-26 22:20:40.102] [jointLog] [info] Number of decoys : 0
+[2022-11-26 22:20:43.045] [jointLog] [info] Automatically detected most likely library type as U
+
+[2022-11-26 22:21:16.735] [fileLog] [info] 
+At end of round 0
+==================
+Observed 6624818 total fragments (6624818 in most recent round)
+
+[2022-11-26 22:21:16.734] [jointLog] [info] Computed 4,216 rich equivalence classes for further processing
+[2022-11-26 22:21:16.734] [jointLog] [info] Counted 735,159 total reads in the equivalence classes 
+[2022-11-26 22:21:16.736] [jointLog] [info] Number of mappings discarded because of alignment score : 53,254
+[2022-11-26 22:21:16.736] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 50,289
+[2022-11-26 22:21:16.736] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2022-11-26 22:21:16.736] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 0
+[2022-11-26 22:21:16.737] [jointLog] [warning] Only 735159 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2022-11-26 22:21:16.737] [jointLog] [info] Mapping rate = 11.097%
+
+[2022-11-26 22:21:16.737] [jointLog] [info] finished quantifyLibrary()
+[2022-11-26 22:21:16.826] [jointLog] [info] Starting optimizer
+[2022-11-26 22:21:16.861] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2022-11-26 22:21:16.861] [jointLog] [info] iteration = 0 | max rel diff. = 618.384
+[2022-11-26 22:21:16.912] [jointLog] [info] iteration = 100 | max rel diff. = 2.31662e-06
+[2022-11-26 22:21:16.913] [jointLog] [info] Finished optimizer
+[2022-11-26 22:21:16.913] [jointLog] [info] writing output 
+
+[2022-11-26 22:21:16.946] [jointLog] [info] Computing gene-level abundance estimates

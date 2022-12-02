@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.9.0",
+    "index": "../../map/index",
+    "libType": "A",
+    "unmatedReads": "../trimmed/SRR13970445_trimmed.fastq",
+    "geneMap": "../reference/reference_ecoli_k12/genomic.gtf",
+    "validateMappings": [],
+    "output": "../../map/alignment/SRR13970445",
+    "threads": "12",
+    "auxDir": "aux_info"
+}
